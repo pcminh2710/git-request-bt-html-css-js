@@ -1,0 +1,108 @@
+// Máy tính phân giải thấp
+@media (min-width: 1540px) and (max-width: 1890px) {
+    //contact
+    .input {
+        &-top,
+        &-bottom {
+            & input {
+                width: 42%;
+            }
+        }
+        &-full {
+            & textarea {
+                width: 90%;
+            }
+        }
+    }
+    //pricing
+    .pricing {
+        height: 100%;
+        &__order {
+            flex-wrap: wrap;
+            &__item {
+                width: 310px;
+            }
+            &-btn {
+                width: 60%;
+            }
+        }
+    }
+    // aboutus
+    .aboutus {
+        &__info {
+            padding-left: 200px;
+        }
+    }
+}
+//Máy tính phân giải thấp
+@media (max-width: 1539px) {
+    //feature
+    .feature__content {
+        padding-bottom: 186px;
+        justify-content: center;
+    }
+    .feature__content__img img {
+        margin-left: 20px;
+        width: 470px;
+        height: 270px;
+    }
+    //speci
+    .speci__contact {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .speci__support {
+        flex-wrap: wrap;
+        align-items: center;
+        &-desc {
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+    }
+    .desc-support p:last-child {
+        width: 100%;
+    }
+    //social
+    .clients__social {
+        display: block;
+    }
+    //pricing
+    .pricing {
+        &__order {
+            justify-content: center;
+            &__item {
+                width: 310px;
+                margin: 25px 10px;
+            }
+        }
+    }
+    //about us
+    .aboutus__info {
+        padding: 10px 20px;
+        & p:nth-child(2),
+        p:nth-child(3),
+        p:nth-child(4) {
+            width: 100%;
+        }
+    }
+    //contact us
+    .contact__send {
+        flex-direction: column;
+        &__form {
+            width: 100%;
+            & .input-top,
+            .input-bottom {
+                justify-content: space-between;
+            }
+            & .input-full textarea {
+                width: 100%;
+            }
+        }
+        &__info {
+            width: 100%;
+        }
+    }
+    .btn-video {
+        display: none;
+    }
+}
