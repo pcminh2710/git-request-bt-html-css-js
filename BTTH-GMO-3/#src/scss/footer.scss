@@ -1,0 +1,72 @@
+// Foter
+.wrap-infomation {
+    background-image: url("../img/Backgroundlast.png");
+    height: 373px;
+    margin-top: 132px;
+}
+.infomation {
+    display: flex;
+    width: 62%;
+    justify-content: space-between;
+    margin: 0 auto;
+    &__left {
+        & p:nth-child(1) {
+            font-size: 30px;
+            color: #ffffff;
+            font-weight: 900;
+            font-style: italic;
+            font-family: "Lato";
+            margin-top: 105px;
+        }
+        & p:nth-child(2) {
+            margin-top: 40px;
+            width: 470px;
+            height: 40px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+        & p:nth-child(3) {
+            margin-top: 60px;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+    }
+    &__right {
+        &__item {
+            display: flex;
+            justify-content: flex-end;
+            &-s {
+                & p:nth-child(1) {
+                    margin-top: 105px;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #fefefe;
+                    font-weight: 700;
+                    text-align: right;
+                }
+                & p:nth-child(2) {
+                    width: 170px;
+                    height: 72px;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #fefefe;
+                    font-weight: 400;
+                    text-align: right;
+                }
+            }
+            &-last {
+                & p {
+                    margin-top: 60px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #ffffff;
+                    font-weight: 400;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

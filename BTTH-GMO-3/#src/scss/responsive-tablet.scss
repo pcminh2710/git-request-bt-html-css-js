@@ -1,0 +1,60 @@
+// Tablet
+@media (min-width: 769px) and (max-width: 1315px) {
+    .mobile {
+        display: block;
+    }
+    .mobile a {
+        color: white;
+        font-size: 40px;
+    }
+    .wrap__top {
+        height: 100%;
+    }
+    .header {
+        &__menu {
+            display: none;
+        }
+    }
+    .menu-mobile {
+        top: 80px;
+        right: 0;
+    }
+    //Content
+    .content {
+        &__top {
+            flex-wrap: wrap;
+            &__right {
+                margin: 100px auto;
+            }
+        }
+    }
+    //Feature
+    .feature__content {
+        flex-wrap: wrap;
+    }
+    //Pricing
+    .pricing {
+        height: 100%;
+        &__order {
+            flex-wrap: wrap;
+        }
+    }
+
+    //contact
+
+    //Infomation
+    .wrap-infomation {
+        height: 100%;
+    }
+    .infomation {
+        flex-wrap: wrap;
+        &__right {
+            margin: 0 auto;
+            text-align: center;
+            &__item-s p:nth-child(1),
+            p:nth-child(2) {
+                text-align: center;
+            }
+        }
+    }
+}
